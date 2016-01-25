@@ -1,0 +1,21 @@
+{
+    "name": "lotar/arwebservice",
+    "description": "BMC Remedy(R) Mid-Tier SOAP client wrapper",
+    "license": "MIT",
+    "keywords": ["bmc", "midtier", "remedy", "soap", "webservice"],
+    "authors": [
+        {
+            "name": "Giuseppe Di Terlizzi",
+            "email": "giuseppe.diterlizzi@gmai.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "5.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lotar\\ARWebService\\" : "src/"
+        }
+    }
+}
