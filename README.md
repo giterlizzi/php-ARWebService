@@ -5,7 +5,7 @@ BMC Remedy(R) Mid-Tier SOAP client wrapper
 ## Install
 
 ```.sh
-composer.phar require lotar/arwebservice
+composer.phar require giterlizzi/arwebservice
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ composer.phar require lotar/arwebservice
 
 include('vendor/autoload.php');
 
-use Lotar\ARWebService;
+use giterlizzi\ARWebService;
 
 $client = new ARWebService\Client('http://localhost:8080', 'ars81', 'Demo', '');
 $client->setService('User');

@@ -1,8 +1,9 @@
 <?php
 
-use Lotar\ARWebService;
+use giterlizzi\ARWebService;
+use PHPUnit\Framework\TestCase;
 
-class ClientTest extends PHPUnit_Framework_TestCase {
+final class ClientTest extends TestCase {
 
   public function testWsdlUrl() {
 
@@ -15,7 +16,7 @@ class ClientTest extends PHPUnit_Framework_TestCase {
   }
 
   /**
-    * @expectedException Lotar\ARWebService\ClientException
+    * @expectedException giterlizzi\ARWebService\ClientException
     */
   public function testNoServiceException() {
 

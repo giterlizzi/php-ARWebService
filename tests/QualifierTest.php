@@ -1,8 +1,9 @@
 <?php
 
-use Lotar\ARWebService;
+use giterlizzi\ARWebService;
+use PHPUnit\Framework\TestCase;
 
-class QualifierTest extends PHPUnit_Framework_TestCase {
+final class QualifierTest extends TestCase {
 
   public function testEqIntger() {
 
